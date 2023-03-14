@@ -67,3 +67,9 @@ contactForm.addEventListener('submit', e => {
 	const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
 	window.open(`mailto:your@email.com?subject=Portfolio Contact&body=${body}`);
 });
+
+function resumeDownload(){
+   
+    window.open("fp07_082-Uday-Pratap-Singh-Resume.pdf","_blank");
+  }
+

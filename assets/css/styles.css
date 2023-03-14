@@ -98,6 +98,51 @@ img {
   padding-bottom: 2rem;
 }
 
+/* MSkill Section */
+#skills{
+  background-color: whitesmoke;
+}
+#skills>h1{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #200eed;
+  font-size: 35px;
+  margin-top: 40px;
+}
+#skills>div{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  gap: 45px;
+}
+#skills>div>div{
+  text-align: center;
+  padding: 15px 0px;
+  background-color: #dfd0d0;
+  border-radius: 10px;
+  align-items: center;
+}
+#skills>div>div:hover{
+  background-color: rgba(6, 103, 177, 0.08);
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+  border: 1px solid navy;
+  border-radius: 15px;
+}
+#skills>div>div>img{
+  width: 40%;
+  margin: auto;
+}
+
+#skills>div>div>h2{
+  color: rgb(3, 95, 87);
+}
+
 /*===== LAYOUT =====*/
 .bd-grid {
   max-width: 1024px;
@@ -170,6 +215,32 @@ img {
   font-size: 1.5rem;
   cursor: pointer;
 }
+#downloadResume{
+  width: 180px;
+  margin-left: 400px;
+  padding: 17px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(243, 243, 244);
+  background-color: #2a0d9e;
+  border: 0px;
+  border-radius: 5px;
+  text-decoration: none; 
+}
+#downloadResume:hover{
+  background-color: #4b3f79;
+  cursor: pointer;
+}
+.btn{
+  width: 110px;
+  height: 30px;
+  margin-left: 20px;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #d5e6ec;
+
+}
 /* .btn{
   height: 40px;
   width: 140px;
@@ -210,7 +281,7 @@ img {
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-6);
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .home__title-color {
