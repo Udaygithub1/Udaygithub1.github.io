@@ -70,6 +70,6 @@ contactForm.addEventListener('submit', e => {
 
 function resumeDownload(){
    
-    window.open("fp07_082-Uday-Pratap-Singh-Resume.pdf","_blank");
+    window.open("https://drive.google.com/file/d/19T5h8YuFgkUgxaEFWKTQo3uh4G7fszub/view?usp=share_link","_blank");
   }
 

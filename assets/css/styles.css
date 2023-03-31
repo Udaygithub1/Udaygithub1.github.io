@@ -532,9 +532,6 @@ input[type="submit"]:hover {
   cursor: pointer;
   margin-left: auto;
 }
-/* for media query */
-
-
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
